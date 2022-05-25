@@ -1,1 +1,2 @@
 This project was managed by: CT, David, Raj, Kal, habiba, Ado, Sydney,Hamza & Getahun.
+ This is addition to what was written to team.txt
