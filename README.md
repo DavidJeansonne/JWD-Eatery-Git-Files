@@ -27,5 +27,5 @@ ReactJS
 ## Sydney
 ## Getahun
 ## Kanagaraj
-
 We are glad and greatful to be part of GENERATION USA! JWD class. ![Generation_USA_Logo](https://user-images.githubusercontent.com/96953205/170086296-bd0ee9f5-9a94-4ed3-9e41-5a7f52e0b6d5.jpg)
+
