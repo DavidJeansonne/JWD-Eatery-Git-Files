@@ -57,7 +57,6 @@ video{
     
 }
 h1{
-    font-family: cursive;
     margin-bottom: 50px;
 }
 .hr-line {
@@ -69,8 +68,12 @@ h1{
     height:400px;
     background-color: black;
     min-width: 960px;
-    
 }
+.footer-top-container {
+    display: flex;
+    background-color: black;
+}
+
 #footer-1st-div {
     height:280px;
     min-width:650px;
@@ -90,4 +93,20 @@ h1{
 
 .social-media{
     text-align: center;
+    background-color: black;
+    margin: auto;
+    
+  
+}
+.social-media img {
+    width:5%;
+    margin: 15px;
+}
+.food-moto img{
+    width:50%;
+    text-align: center;
+    background-color: black;
+}
+.food-moto {
+    background-color: black;
 }
