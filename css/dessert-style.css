@@ -5,6 +5,16 @@
     font-family: cursive;
 }
 
+.logo-div{
+    display:flex;
+    height:200px;
+    min-width:960px;
+}
+.logo-div h2{
+    min-width:70%;
+    text-align:right;
+    margin-top: 50px;
+}
 .nav-ul {
     height:150px;
     min-width:960px;
