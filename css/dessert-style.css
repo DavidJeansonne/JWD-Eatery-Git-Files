@@ -37,6 +37,52 @@
     background-color: black;
     text-align: center;
 }
+
+
+
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    margin-left:60px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    top:50px;
+    background-color: black;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(220, 212, 212, 0.2);
+    z-index: 1;
+  }
+  .dropbtn a {
+      background-color: #04AA6D;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #a1b28d;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
 .dessert-nav-container {
     background-color: black;
     margin:auto;
@@ -78,7 +124,7 @@ video{
   height:800px;
 }
 .div-under-video{
-    height:300px;
+    height:400px;
     background:transparent;
     text-align: center;
     margin:auto;
@@ -90,7 +136,7 @@ video{
 }
 .div-under-video h1{
     background-color: black;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .div-under-video p {
     background-color: black;
