@@ -1,63 +1,52 @@
 * {
     margin:0;
     padding:0;
-    background-color: rgb(241, 245, 245);
+    background-color: #a1b28d;
     font-family: cursive;
 }
-
 .logo-div{
     display:flex;
     height:200px;
     min-width:960px;
+    background-color: black;
 }
-.nothing-like-food-div {
-    width:100%;
-    height:200px;
-    margin-left:150px;
-    text-align: right;
-
-}
-.nothing-like-food-div h2{
-    
-    background-image: url(https://images.pexels.com/photos/3297803/pexels-photo-3297803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:100%;
+.logo-div img{
+    background-color: black;
 }
 .delivery-logo{
     display: flex;
     height:200px;
-    width:100%;
+    width:300px;
     align-items:center;
     margin-left: 60px;
+    background-color: black;
     
 }
 .delivery-logo a{
-    background-color: rgb(241, 245, 245);
+    background-color: black
 }
 .delivery-logo img{
-    width:25%;
-    background-color: rgb(241, 245, 245);
+    width:55%;
+    background-color: black;
     margin: auto;
 }
 .nav-ul {
     height:150px;
-    min-width:960px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-items: right;
     background-color: black;
     text-align: center;
 }
 .dessert-nav-container {
-    width:100%;
     background-color: black;
     margin:auto;
-}
-
+    }
+    
 li {
     margin:auto;
-    border-radius: 15px;
+    padding:40px;
+    background-color: black;
+    margin-left:50px;
 }
 
 a {
@@ -70,10 +59,15 @@ a {
 .dessert-table {
     margin:auto;
     border-collapse: separate;
-    border-spacing: 45px;
+    border-spacing: 5px;
+    height:1300px;
+    background-color: #a1b28d;
 }
 
-
+.dessert-table img{
+    border-radius: 15px;
+    border:3px solid black;
+}
 video{
     object-fit: fill;
 }
@@ -81,12 +75,12 @@ video{
   text-align: center;
   background-color: black;
   min-width: 960px;
+  height:800px;
 }
 .div-under-video{
     height:300px;
     background:transparent;
     text-align: center;
-    margin-top: 100px;
     margin:auto;
     min-width:960px;
     z-index:5;
@@ -101,6 +95,7 @@ video{
 .div-under-video p {
     background-color: black;
     color:whitesmoke;
+    line-height: 50px;
 }
 .hr-line {
     margin: auto;
