@@ -116,6 +116,7 @@ a {
 }
 video{
     object-fit: fill;
+    background-color:black;
 }
 .dessert-video {
   text-align: center;
