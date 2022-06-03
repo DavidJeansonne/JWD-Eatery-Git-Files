@@ -10,10 +10,35 @@
     height:200px;
     min-width:960px;
 }
-.logo-div h2{
-    min-width:70%;
-    text-align:right;
-    margin-top: 50px;
+.nothing-like-food-div {
+    width:100%;
+    height:200px;
+    margin-left:150px;
+    text-align: right;
+
+}
+.nothing-like-food-div h2{
+    
+    background-image: url(https://images.pexels.com/photos/3297803/pexels-photo-3297803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+}
+.delivery-logo{
+    display: flex;
+    height:200px;
+    width:100%;
+    align-items:center;
+    margin-left: 60px;
+    
+}
+.delivery-logo a{
+    background-color: rgb(241, 245, 245);
+}
+.delivery-logo img{
+    width:25%;
+    background-color: rgb(241, 245, 245);
+    margin: auto;
 }
 .nav-ul {
     height:150px;
@@ -64,14 +89,24 @@ video{
     margin-top: 100px;
     margin:auto;
     min-width:960px;
+    z-index:5;
+    background-color:black;
+    color:whitesmoke
     
 }
-h1{
+.div-under-video h1{
+    background-color: black;
     margin-bottom: 50px;
+}
+.div-under-video p {
+    background-color: black;
+    color:whitesmoke;
 }
 .hr-line {
     margin: auto;
     margin-top: 50px;
+    background-color: black;
+    color: whitesmoke;
 }
 
 #dessert-footer{
