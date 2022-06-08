@@ -1,8 +1,8 @@
 * {
     margin:0;
     padding:0;
-    background-color:  rgb(246, 240, 240);
-    font-family: cursive;  
+    font-family: cursive; 
+    background-color: rgb(246 240 240 / 40%); 
 
 }
 body {
@@ -11,6 +11,7 @@ body {
     border-top: 105px solid  #FFE6D8;
     border-bottom: 105px solid #FFE6D8;
     border-radius: 50px; 
+   
 
 }
 .logo-div{
@@ -207,21 +208,28 @@ div p {
     left:45%;
     background-color: whitesmoke;
 }
+td {
+    padding: 10px;
 
+ }
 .dessert-table {
     margin:auto;
     border-collapse: separate;
     border-spacing: 5px;
     height:1300px;
     margin-top:200px;
-   
+    background-color:rgba(239, 234, 234, 0.63);
+    color:saddlebrown;
+    border:2px solid saddlebrown;
+    border-radius: 5px;
 }
 .table-div {
     background-image: url("https://images.pexels.com/photos/806363/pexels-photo-806363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=11");
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    border-radius:15px;
+    border-radius:25px;
+    
 }
 .dessert-table img{
     border-radius: 50%;
@@ -229,6 +237,7 @@ div p {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
     background: transparent;
 }
+
 
 #dessert-footer{
     height:400px;
@@ -298,7 +307,7 @@ div p {
 
 
 @media screen and (max-width: 760px){
-   
+  
 
 * {
    margin:0;
@@ -509,6 +518,7 @@ body {
         width:460px;
     }
     #dessert-table-1{
+        width:100%;
         background:transparent;
         color:saddlebrown;
         margin-top:-200px;
