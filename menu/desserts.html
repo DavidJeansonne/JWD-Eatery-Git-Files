@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>JWD Eatery Menu</title>
   <link href="../css/style.css" rel="stylesheet" type="text/css" />
   <link href="../css/dessert-style.css" rel="stylesheet" type="text/css" />
@@ -14,29 +14,32 @@
     <header class="dessert-header">
       
       <div class="logo-div">
-         <img src="../images/jwd-eatery-logo.png" width="250px" height="150px"/>
+         <div class="JWD-logo-div">
+            <img src="../images/jwd-eatery-logo.png" width="250px" height="150px"/>
+         </div>
            <div class="delivery-logo">
               <a href="#"><img src="../images/delivery-man.png"/></a>
               <a href="#"><img src="../images/event.png"/></a>
               <a href="#"><img src="../images/table.png"/></a>
            </div> 
             <div class="dessert-nav-container">
-             <nav class="dessert-nav-container">
-               <ul class="nav-ul">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../index.html" id="form">Contact</a></li>
-                </li>
-                 <div class="dropdown">  
-                  <button class="dropbtn"><a href="#">Menu</a></button>
-                  <div class="dropdown-content">
-                    <a href="../menu/entrees.html">Entrees</a>
-                    <a href="../menu/appetizers.html">Appetizers</a>
-                    <a href="../menu/drinks.html">Drinks</a>
-                    <a href="../menu/desserts.html">Desserts</a>
-                  </div>
-                 </div>
-                </div> 
-             </nav>
+               <nav class="dessert-nav-container">
+                 <ul class="nav-ul">
+                  <button class="Home-Content-btn "><a href="../index.html">Home</a></button>
+                  <button class="Home-Content-btn  contact-btn"><a href="../index.html" id="form">Contact</a></button>
+                 
+                   <div class="dropdown">  
+                    <button class="dropbtn"><a href="#">Menu</a></button>
+                      <div class="dropdown-content">
+                        <a href="../menu/entrees.html">Entrees</a>
+                        <a href="../menu/appetizers.html">Appetizers</a>
+                        <a href="../menu/drinks.html">Drinks</a>
+                        <a href="../menu/desserts.html">Desserts</a>
+                      </div>
+                   </div>
+                 </ul>
+          
+                </nav>
             </div>
       </div>     
       
@@ -46,26 +49,54 @@
   <main>
 
 
-    <div class="dessert-video">
-      <video width="400" height="450" autoplay muted>
-        <source src="../images/pexels-ekaterina-bolovtsova-5703047.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-
-
-    <div class="div-under-video">
-         <h1>Desserts</h1>
-         <p style="font-family: cursive;">There’s a reason why your body craves certain delicious desserts. Low carb diets
-        often overlook the fact that carbohydrates are an essential nutrient for the body. While desserts may not be the
-        healthiest form of carbohydrates, the right indulgences can fuel your body and mind.</p>
-          <div class="hr-line"> 
-              <hr class="hr-line" style="width:10%">
+    <div class="dessert-video-container">
+       <div class="order-now-outer-div">
+           <div class="Order-btn-div">
+             <button href="#" class="btn-order btn-1">Order</button>
+           </div>
+          <div class="btn-2-div"> <button href="#" class="btn-2">Now!</button>
           </div>
+       </div>
+            <div id="large-device-video">
+              <video width="400" height="450" autoplay muted>
+                <source src="../images/pexels-los-muertos-crew-8478035.mp4" type="video/mp4">
+                 Your browser does not support the video tag.
+               </video>
+            </div>
+    </div>
+
+    <div class="video-map-container-mobile" id="video-map-container-mobile">
+       
+       <div class="video-mobile-outerdiv video-mb " id="mobile-video">
+          <video width="100%" height="450" autoplay muted>
+          <source src="../images/pexels-los-muertos-crew-8478035.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+       </div>
+       <div class="Order-btn-div map-mobile map-mobile-ordernow" id="map-mobile">
+        <button href="#" class="btn-order btn-1 order-btn-mobile">Order Now!</button>
+       </div>
+         
     </div>
 
 
-    <table class="dessert-table">
+    <div class="div-under-video  why-dessert-mobile">
+       <div class="h1-div h1-div-mobile">
+          <h1>Desserts</h1>
+       </div>
+       <div class="why-dessert-p"><p style="font-family: cursive;">There’s a reason why your body craves certain delicious desserts. Low carb diets
+          often overlook the fact that carbohydrates are an essential nutrient for the body. While desserts may not be the
+          healthiest form of carbohydrates, the right indulgences can fuel your body and mind.</p>
+       </div>
+       <div class="hr-line"> 
+              <hr class="hr-line" style="width:10%">
+       </div>
+
+    </div>
+
+
+   <div class="table-div">
+    <table class="dessert-table" id="dessert-table-1">
       <thead>
         <tr>
           <th>Image</th>
@@ -104,11 +135,54 @@
               src="https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZGVzc2VydHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
               height="150px" width="250px" /></td>
           <td>Fruit Donut</td>
-          <td>Classic donut with choice of summer fruits </td>
+          <td>Classic donuts x12 with choice of summer fruits </td>
           <td>$9.99</td>
         </tr>
       </tbody>
     </table>
+   </div>
+
+
+
+   <div class="mobile-table-div">
+      <table  class="mobile-table">
+        <thead class="mobile-table-head">
+          <tr>
+            <th>Item</th>
+            <th>Description</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img
+                src="https://images.unsplash.com/photo-1609540969455-ad5ea19be121?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                height="150px" width="250px" /></td>
+            <td><strong>Mix Barfi:</strong>  <br>Milk based sweet dish that melts your heart <br>$6.99</td>
+            
+         
+          </tr>
+          <tr>
+            <td><img
+                src="https://images.unsplash.com/photo-1517244683847-7456b63c5969?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kaWFuJTIwZGVzc2VydHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                height="150px" width="250px" /></td>
+            <td><strong> Halua:</strong> <br>Slightly sweetened milk base Halua with carrot <br>$9.99 </td>
+          </tr>
+          <tr>
+            <td><img
+                src="https://images.unsplash.com/photo-1589970343009-c6147c707b3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aW5kaWFuJTIwZGVzc2VydHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                height="150px" width="250px" /></td>
+            <td><strong>Fruit Yogurt/Dhai:</strong> <br>Authentic indian unsweetened yogurt with choice of fruits <br>$9.99</td>
+          </tr>
+          <tr>
+            <td><img
+                src="https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZGVzc2VydHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                height="150px" width="250px" /></td>
+            <td><strong>Fruit Donuts:</strong><br> Classic donuts x12 with choice of summer fruits <br> $9.99</td>
+          </tr>
+        </tbody>
+      </table>
+   </div>
 
   </main>
 
@@ -130,6 +204,28 @@
   </div>  
   <p class="footer-p">© 2022-JWD-Team5</p> 
 </footer>  
+
+<div id="mobile-footer"class="mobile-footer-1">
+  <div class="mob-footer-btn-div">
+      <a href="../index.html">Home</a>
+      <a href="#">Contact us</a>
+      <a href="../index.html">About us</a>
+      <a href="#">Blogs</a>
+   </div>
+   <div class="food-moto"> <img src="../images/IMG-8594.PNG"/></div>
+   <div class="social-media">
+     <a href="#" class="fa fa-facebook"> <img src="../images/facebook.png"/></a> 
+     <a href="#" class="fa fa-twitter"><img src="../images/twitter.png"/></a> 
+     <a href="#" class="fa fa-IG"><img src="../images/instagram.png"/></a>
+   </div>
+  </div>  
+
+     <p class="mobile-footer-p"> © 2022-JWD-Team5</p>
+  
+    
+</div>
+
+
   <script src="../js/script.js"></script>
 </body>
 
