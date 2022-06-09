@@ -102,8 +102,8 @@ th, td {
   grid-template: 1fr / 1fr 1fr 1fr;
 }
 
-.solid {border-style: solid;
-    border-color: gold;
+.solid {
+  border-style: solid;
 }
 
 
