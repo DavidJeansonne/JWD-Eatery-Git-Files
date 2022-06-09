@@ -1,0 +1,611 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: cursive; 
+    background-color: rgb(246 240 240 / 40%); 
+
+}
+body {
+    border-left: 65px solid #FFE6D8;
+    border-right: 65px solid #FFE6D8;
+    border-top: 105px solid  #FFE6D8;
+    border-bottom: 105px solid #FFE6D8;
+    border-radius: 50px; 
+   
+
+}
+.logo-div{
+    display:flex;
+    height:200px;
+    min-width:960px;
+    background-color: rgb(246, 240, 240);
+}
+.delivery-logo{
+    display: flex;
+    height:200px;
+    width:300px;
+    align-items:center;
+    margin-left: 60px;
+}
+
+.delivery-logo img{
+    width:35%;
+    background-color: rgb(246, 240, 240);
+    margin: auto;
+}
+.nav-ul {
+    height:150px;
+    display: flex;
+    justify-items: right;
+    text-align: center;
+    border-radius: 50px 100px 10px;
+}
+.nav-ul a {
+    color:black;
+    text-decoration: none;
+}
+
+.dropbtn {
+    background-color: salmon;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    margin-left:60px;
+    border-radius: 50px 100px 10px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    top:50px;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(220, 212, 212, 0.2);
+    z-index: 1;
+  }
+  .dropbtn a {
+    background-color: #FFE6D8;;
+    color:black;
+    border-radius: 50px 100px 10px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #a1b28d;
+  }
+  
+  .dropdown-content a:hover {background-color:#FFE6D8;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: salmon}
+
+.dessert-nav-container {
+    background-color: rgb(246, 240, 240);
+    margin:auto;
+    }
+    
+.Home-Content-btn {
+    margin:auto;
+    padding:40px;
+    background-color: rgb(246, 240, 240);
+    margin-left:50px;
+    text-decoration: none;
+    border:none;
+    border-radius: 50px 100px 10px;
+}
+
+a {
+    background-color: rgb(246, 240, 240);
+    color:white;
+    font-family: cursive;
+    font-size: medium;
+}
+.dessert-video-container {
+  text-align: center;
+  background-color: rgb(246, 240, 240);
+  min-width: 960px;
+  height:800px;
+  display:inline-flex;
+  margin-top: 150px;
+  justify-content: left;
+  
+}
+video{
+    object-fit: fill;
+   
+}
+.Order-btn-div {
+    width:400px;
+    height:550px;
+    background-color:rgb(246, 240, 240);
+    display: flex;
+    background-image: url(https://www.1185films.com/wp-content/uploads/2014/11/1185-MAP.jpg);
+    align-items: center; 
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 30px;
+    margin-left:50px;
+
+}
+.btn-order {
+    height:90px;
+    width:200px;
+    border-radius: 10px;
+    margin-left:205px;
+    background-color: salmon;
+    color: whitesmoke;
+}
+.btn-2-div{
+    width:300px;
+    height:250px;
+    background-image:url("https://images.pexels.com/photos/7663810/pexels-photo-7663810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    border-radius:50%;
+    margin-top:140px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+   
+}
+.btn-2 {
+    color:black;
+    background-color: whitesmoke;
+    height:90px;
+    width:200px;
+    border-radius: 10px;
+    margin-right:30px;
+    position: relative;
+    top:90px;
+    right:35px;
+}
+.order-now-outer-div {
+    display: flex;
+}
+.div-under-video {
+    height: 600px;
+    width:80%;
+    margin:auto;
+    background-color: pink;
+    overflow: hidden;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    border-radius: 50px 100px 10px 50px;
+    box-shadow: rgb(44, 62, 80) 0px 0px 15px 0px;
+   
+
+}
+.h1-div{
+    position: relative;
+    bottom: 160px;
+    width:200px;
+    text-align: center;
+    margin:auto;
+    color:saddlebrown;
+}
+div p {
+    position: relative;
+    bottom: 260px;  
+    text-align: center;
+    width:70%;
+    margin: auto;
+    background-color: pink;
+    color:saddlebrown;
+}.hr-line {
+    position:absolute;
+    width:10%;
+    height:1px;
+    top:450px;
+    left:45%;
+    background-color: whitesmoke;
+}
+td {
+    padding: 10px;
+
+ }
+.dessert-table {
+    margin:auto;
+    border-collapse: separate;
+    border-spacing: 5px;
+    height:1300px;
+    margin-top:200px;
+    background-color:rgba(239, 234, 234, 0.63);
+    color:saddlebrown;
+    border:2px solid saddlebrown;
+    border-radius: 5px;
+}
+.table-div {
+    background-image: url("https://images.pexels.com/photos/806363/pexels-photo-806363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=11");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius:25px;
+    
+}
+.dessert-table img{
+    border-radius: 50%;
+    border:3px solid salmon;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    background: transparent;
+}
+
+
+#dessert-footer{
+    height:400px;
+    background-color: saddlebrown;
+    min-width: 600px;
+}
+.footer-top-container {
+    display: flex;
+    background-color: saddlebrown;
+}
+
+#footer-1st-div {
+    height:280px;
+    min-width:300px;
+    background-color:saddlebrown;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+#footer-1st-div a {
+    background-color: saddlebrown;
+}
+
+.footer-p{
+    text-align: center;
+    background-color: saddlebrown;
+    color: whitesmoke;
+    
+}
+
+.social-media{
+    text-align: center;
+    background-color: saddlebrown;
+    margin: auto; 
+  
+}
+.social-media img {
+    width:15%;
+    margin: 15px;
+    background-color: saddlebrown;
+}
+.food-moto img{
+    width:50%;
+    text-align: center;
+    background-color: saddlebrown;
+}
+.food-moto {
+    background-color: saddlebrown;
+}
+.social-media a {
+    background-color: saddlebrown;
+}
+
+
+@media screen and (min-width: 760px) {
+
+.mobile-table{
+    display: none;
+}
+
+}
+.mobile-footer-p {
+    display:none;
+}
+
+
+
+@media screen and (max-width: 760px){
+  
+
+* {
+   margin:0;
+   padding:0;
+   background-color:  rgb(246, 240, 240);
+   font-family: cursive;  
+       
+}
+body {
+    border-radius:none;
+    border:none;
+
+}
+.delivery-logo {
+    display: none;
+ }
+.logo-div {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.JWD-logo-div {
+    text-align: left;
+}
+.contact-btn {
+    display:none;
+}
+.dropdown {
+   margin-right:1600px;
+   background-color:transparent;
+   position: relative;
+   z-index:5;
+   left:50px;
+   top:-100px;
+}
+.Home-Content-btn{
+    position: relative;
+    z-index:5;
+    left:20px;
+    top:-150px;
+}
+#video-map-container-mobile{
+   height:2000px;
+   display: flex;
+   flex-direction: column;
+   position:relative;
+   z-index:0;
+   top:-50px;
+   bottom:200px;
+
+
+}
+#mobile-video {
+  position:relative;
+  height:400px;
+  width:320px;
+  margin-left:-100px;
+ 
+}
+
+#map-mobile {
+    position:relative;
+    top:400px;
+    left:-45px;
+    width:365px;
+}
+.order-btn-mobile{
+    position: relative;
+    margin: auto;
+}
+.why-dessert-mobile{
+    position: relative;
+    top:300px;
+    right:25px;
+}
+.why-dessert-p{
+    background-color:pink;
+    position:relative;
+    top:100px;
+    margin-bottom:40px;
+}
+.h1-div-mobile {
+    background-color:pink;
+    position:relative;
+    top:-100px;
+}
+.table-div {
+    display:none;
+}
+.mobile-table img {
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    margin:auto;
+    border-collapse: separate;
+    border-spacing: 5px;
+    margin-top:200px;
+    width:95%;
+}
+.mobile-table {
+   
+    color:brown;
+    text-align: center;
+    position:relative;
+    margin-bottom:200px;
+    width:335px;
+    left:25px;
+    background-color:grey;
+    background-image: url("https://images.pexels.com/photos/806363/pexels-photo-806363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=11");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:700px;
+
+}
+.mobile-table-head{
+    height:100px;
+    color:saddlebrown;
+   
+}
+#dessert-footer{
+    display:none;
+}
+#mobile-footer {
+    width:100%;
+    height:450px;
+    background-color: saddlebrown;
+    position:relative;
+    
+}
+.mob-footer-btn-div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    top:10px;
+    left:5px;
+    height:200px;
+    background-color: transparent;
+}
+.mob-footer-btn-div a{
+    background-color: transparent;
+}
+.food-moto img{
+    width:30%;
+}
+.mobile-footer-p {
+    position:relative;
+    top:70px;
+    text-align: center;
+    color:brown;
+}
+.social-media img{
+    width:10%;
+}
+
+}
+
+@media screen and (min-width: 1020px) {
+    .video-map-container-mobile{
+        display:none;
+    }
+    #mobile-footer{
+        display:none;
+    }
+}
+@media screen and (max-width: 1020px) {
+
+    body{
+        border-radius:20px;
+    }
+    .logo-div {
+        background:transparent;
+    }
+    .delivery-logo{
+        display:none;
+    }
+   .dessert-nav-container{
+       width:50%;
+       position:relative;
+       top: 80px;
+       right:215px;
+       background-color:transparent;
+   }
+   .dessert-video-container{
+       display:none;
+       
+   }
+   .video-map-container-mobile{
+       height:2000px;
+       width:100%;
+       position:relative;
+       top:100px; 
+       background-image: url("https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+   .video-mobile-outerdiv{
+       position:relative;
+       top:200px;
+       left:130px;
+       background: transparent;
+       width:450px;
+      
+    }
+    .map-mobile-ordernow {
+        position:relative;
+        top:330px;
+        left:60px;
+        width:460px;
+    }
+    #dessert-table-1{
+        width:100%;
+        background:transparent;
+        color:saddlebrown;
+        margin-top:-200px;
+        margin-bottom:100px;
+        
+    }
+    .table-div {
+        background-image: url("https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .why-dessert-mobile{
+        left: -5px;
+        position: relative;
+        margin: auto;
+        top: -350px;
+    }
+    #dessert-footer{
+        display:none;
+    }
+    .mobile-footer-1 {
+        width:100%;
+        height:650px;
+        background-color: saddlebrown;
+        position:relative;
+        
+    }
+    .mob-footer-btn-div{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        position: relative;
+        top:10px;
+        left:5px;
+        height:200px;
+        background-color: transparent;
+    }
+    .mob-footer-btn-div a{
+        background-color: transparent;
+    }
+    .food-moto img{
+        width:30%;
+    }
+    .mobile-footer-p {
+        position:relative;
+        top:70px;
+        text-align: center;
+        color:black;
+    }
+    .social-media img{
+        width:10%;
+    }
+    
+
+}
+@media screen and (max-width: 1300px) {
+
+    .logo-div {
+        background:transparent;
+    }
+    .delivery-logo{
+        display:none;
+    }
+    #large-device-video{
+        position: relative;
+        right:295px;
+        width:310px;
+        top:45px;
+        z-index:0;
+        background: transparent;
+    }
+    .btn-2-div{
+        position:relative;
+        z-index:5;
+        background:transparent
+    }
+    .dessert-video-container{
+        background: transparent;
+    }
+    #dessert-footer{
+        position:relative;
+        width:100%;
+        align-content: center;
+    }
+
+
+
+
+
+}
