@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.google.com/specimen/Indie+Flower');
 
 .entree h1 {
@@ -68,3 +69,17 @@ color: blue;
 body {
    background-color: hsl(191, 99%, 77%);
 }
+=======
+@import url('https://fonts.google.com/specimen/Indie+Flower');
+table {
+color: blue;
+}
+body {
+   background-color: hsl(191, 99%, 77%);
+   }
+dresser{
+   
+   
+   
+}
+>>>>>>> 7e2183bb91b8d4c88e961668675f2a48b38098e2
