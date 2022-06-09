@@ -54,7 +54,9 @@ a:hover {
 }
 
 .body-main {
-  background-image: url("../images/restaurant pic 2.jpg");
+  background-image: url("../images/restaurant pic.jpg");
+  height: 500px;
+  width:  100%; 
 }
 
 .body-appetizer {
