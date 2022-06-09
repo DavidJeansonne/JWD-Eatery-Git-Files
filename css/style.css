@@ -11,6 +11,48 @@ nav {
   font-family: 'Dosis';
 }
 
+header {
+  background-color: rgba(47, 47, 47, 0.90);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+}
+
+header img {
+  margin: 12px 40px;
+  height: 64px;
+  float: left;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  padding: 30px 50px;
+  text-decoration: none;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+a:hover {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  background-color: rgba(17, 17, 17, 0.521);
+  backdrop-filter: blur(10px);
+}
+
 .body-main {
   background-image: url("../images/restaurant pic 2.jpg");
 }
