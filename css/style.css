@@ -96,3 +96,8 @@ th, td {
   background-color: white;
   color: black;
 }
+
+.grid-container {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr 1fr;
+}
