@@ -71,7 +71,7 @@ body {
     z-index: 1;
   }
   .dropbtn a {
-    background-color: #FFE6D8;;
+    background-color: salmon;
     color:black;
     border-radius: 50px 100px 10px;
   }
@@ -88,13 +88,17 @@ body {
   
   .dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: salmon}
+  .dropdown:hover .dropbtn {background-color:saddlebrown}
 
 .dessert-nav-container {
     background-color: rgb(246, 240, 240);
     margin:auto;
     }
     
+.header-h1{
+    text-align: center;
+    color:saddlebrown;
+}
 .Home-Content-btn {
     margin:auto;
     padding:40px;
@@ -170,6 +174,40 @@ video{
 .order-now-outer-div {
     display: flex;
 }
+.view-dessert-container {
+    box-shadow: none;
+    cursor: pointer;
+    margin:auto;
+    padding:10px;
+    text-align: center;
+    position:relative;
+    margin-bottom:280px;
+    height:200px;
+    margin: auto;
+    background: transparent;
+}
+.view-dessert-btn{
+
+    border-color:brown;
+    color: whitesmoke;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    font-family: montserrat cursive;
+    background: saddlebrown;
+    position: absolute;
+    left: 45%;
+    top:-25px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+   
+
+}
+.view-dessert-btn a{
+    background-color: saddlebrown;
+    text-decoration: none;
+}
 .div-under-video {
     height: 600px;
     width:80%;
@@ -238,7 +276,19 @@ td {
     background: transparent;
 }
 
-
+.bottom-grid{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.bottom-grid img{
+    border-radius: 50%;
+}
+.bottom-grid h1{
+    color:saddlebrown;
+    margin-top: 100px;
+}
 #dessert-footer{
     height:400px;
     background-color: saddlebrown;
@@ -291,7 +341,6 @@ td {
 .social-media a {
     background-color: saddlebrown;
 }
-
 
 @media screen and (min-width: 760px) {
 
@@ -360,6 +409,15 @@ body {
 
 
 }
+.bottom-grid{
+    display: none;
+}
+.view-dessert-container{
+    display:none;
+}
+.header-h1{
+    display:none;
+}
 #mobile-video {
   position:relative;
   height:400px;
@@ -377,6 +435,16 @@ body {
 .order-btn-mobile{
     position: relative;
     margin: auto;
+}
+.view-btn-mob-ctn{
+    position:relative;
+    top:-500px;
+    right:20px;
+    height:100px;
+}
+.view-btn-mob{
+    position: absolute;
+    left:140px;
 }
 .why-dessert-mobile{
     position: relative;
