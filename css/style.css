@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .entree h1 {
     text-align:
     font-color:
@@ -48,3 +49,11 @@
     tr: hover {
     background-color: #ddd;
     }
+=======
+table {
+color: blue;
+}
+body {
+   background-color: hsl(191, 99%, 77%);
+ }
+>>>>>>> 9e90c163173b6b5fb91facd4ea59823e642e2102
