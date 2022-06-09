@@ -1,85 +1,81 @@
-<<<<<<< HEAD
+
 @import url('https://fonts.google.com/specimen/Indie+Flower');
 
-.entree h1 {
-    text-align:
-    font-color:
-    font-family:
-    }
+body {
+background: rgb(190,194,203);
+background: linear-gradient(45deg, rgba(190,194,203,1) 0%, rgba(131,135,141,1) 23%, rgba(120,124,130,1) 35%, rgba(75,78,81,1) 80%, rgba(68,71,73,1) 100%);
+background-image: ;
+}
 
-    .entree p {
-    text-align:
-    font-color:
-    font-family:
-    }
+img {
 
-    <div class="grid-container">
-      <div class="item1">Pic 1</div>
-      <div class="item2">Pic 2</div>
-      <div class="item3">Pic3</div>
-    </div>
-    
-    .grid-container {
-      display: grid;
-      grid-template-columns: ;
-      background-color: sand;
-      padding: 10px;
-    }
+}
 
-    .grid-item {
-      background-color: ;
-      border:
-      padding: px;
-      font-size: px;
-      text-align: center;
-    }
+/*nav {
+display: grid;
+position: fixed;
+}*/
 
-    <table id="entrees">
-    
-    #entrees {
-      font-family:
-      border-collapse: collapse;
-      width: %;
-    }
-    
-      th {
-      padding-top: px;
-      padding-bottom: px;
-      text-align: ;
-      background-color:
-      color: white;
-    }
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4.44rem;
+  padding: 0 12%;
+  font-family: Verdana, sans-serif;
+  font-size: .77rem;
+  font-weight: bol;
+  opacity: 0.4;
+  
+}
 
-    tr: hover {
-    background-color: #ddd;
-    }
+.header a {
+text-decoration: none;
+color: #fbe1bd;
+font-size: 25px;
+font-weight: 600;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
 
 table {
-color: blue;
+
 }
 
-body {
-   background-color: hsl(191, 99%, 77%);
+thead {
+
 }
 
-table {
-color: blue;
+div{
+
 }
 
-body {
-   background-color: hsl(191, 99%, 77%);
+tr,
+th,
+td { 
+
 }
-=======
-@import url('https://fonts.google.com/specimen/Indie+Flower');
-table {
-color: blue;
+
+p {
+  justify-content: start;
+  align-items: start;
+  color:#fbe1bd;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
 }
-body {
-   background-color: hsl(191, 99%, 77%);
-   }
-dresser{
-   
-   
-   
+
+h1 {
+  color:#fbe1bd;
 }
->>>>>>> 7e2183bb91b8d4c88e961668675f2a48b38098e2
+
+#entrees {
+font-size: 25px;
+color: #fbe1bd;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.menu{
+  word-spacing: 25%;
+}
