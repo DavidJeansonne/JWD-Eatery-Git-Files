@@ -60,3 +60,37 @@ a:hover {
 .body-appetizer {
   background-image: url("../images/bg-texture.jpg");
 }
+
+table {
+  border-collapse: collapse;
+  padding: 20px;
+  width: auto;
+}
+
+th, td {
+  border: 2px solid black;
+  background-color: orangered;
+  padding: 20px;
+   
+}
+.title {
+  background-color: rgb(66, 0, 128);
+  font-weight: bold;
+  color: white;
+}
+.image {
+  background-color: white;
+}
+.price {
+  font-weight: bolder;
+  background-color: rgb(66, 0, 128);
+  color: white;
+}
+.description {
+  background-color: gold;
+  color: rgb(66, 0, 128);
+}
+.header {
+  background-color: white;
+  color: black;
+}
