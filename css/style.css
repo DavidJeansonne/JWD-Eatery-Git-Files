@@ -104,10 +104,14 @@ th, td {
 
 .solid {
   border-style: solid;
+  padding: 50px;
+  margin: 20px;
 }
 
 
-
+div.a {
+  text-align: center;
+}
 
 
 
