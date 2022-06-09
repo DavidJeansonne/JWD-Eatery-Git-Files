@@ -39,6 +39,7 @@
       font-family:
       border-collapse: collapse;
       width: %;
+    }
     
       th {
       padding-top: px;
@@ -47,6 +48,7 @@
       background-color:
       color: white;
     }
+
     tr: hover {
     background-color: #ddd;
     }
@@ -54,12 +56,15 @@
 table {
 color: blue;
 }
+
 body {
    background-color: hsl(191, 99%, 77%);
+}
 
 table {
 color: blue;
 }
+
 body {
    background-color: hsl(191, 99%, 77%);
 }
