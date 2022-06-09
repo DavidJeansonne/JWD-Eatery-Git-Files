@@ -3,4 +3,6 @@ color: blue;
 }
 body {
    background-color: hsl(191, 99%, 77%);
- }
+ 
+  <link href="./css/style.css" rel="stylesheet" type="text/css" />
+}
