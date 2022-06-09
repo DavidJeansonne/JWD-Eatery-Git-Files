@@ -1,0 +1,50 @@
+.entree h1 {
+    text-align:
+    font-color:
+    font-family:
+    }
+
+    .entree p {
+    text-align:
+    font-color:
+    font-family:
+    }
+
+    <div class="grid-container">
+      <div class="item1">Pic 1</div>
+      <div class="item2">Pic 2</div>
+      <div class="item3">Pic3</div>
+    </div>
+    
+    .grid-container {
+      display: grid;
+      grid-template-columns: ;
+      background-color: sand;
+      padding: 10px;
+    }
+
+    .grid-item {
+      background-color: ;
+      border:
+      padding: px;
+      font-size: px;
+      text-align: center;
+    }
+
+    <table id="entrees">
+    
+    #entrees {
+      font-family:
+      border-collapse: collapse;
+      width: %;
+    
+      th {
+      padding-top: px;
+      padding-bottom: px;
+      text-align: ;
+      background-color:
+      color: white;
+    }
+    tr: hover {
+    background-color: #ddd;
+    }
