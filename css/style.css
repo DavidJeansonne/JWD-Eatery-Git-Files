@@ -82,7 +82,7 @@ th, td {
   color: white;
 }
 .image {
-  background-color: white;
+  background-color: moccasin;
 }
 .price {
   font-weight: bolder;
@@ -94,7 +94,7 @@ th, td {
   color: black;
 }
 .header {
-  background-color: white;
+  background-color: moccasin;
   color: black;
 }
 
