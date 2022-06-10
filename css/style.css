@@ -111,6 +111,11 @@ th, td {
   margin: 20px;
 }
 
+p.text-center {
+  color: whitesmoke;
+  text-align: center;
+  }
+
 h2 {
   font-family: "Dosis";
   font-size: xx-large;
@@ -153,7 +158,4 @@ table.center {
   color: whitesmoke;
 }
 
-p.text-color {
-  color: whitesmoke;
-  text-align: center;
-  }
+
