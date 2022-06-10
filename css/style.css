@@ -112,7 +112,7 @@ th, td {
 }
 
 h2 {
-  font-family: "Dosis", cursive;
+  font-family: "Dosis";
   font-size: xx-large;
 
 .waviy {
@@ -121,7 +121,7 @@ h2 {
   font-size: 60px;
 }
 .waviy span {
-  font-family: 'Dosis', cursive;
+  font-family: 'Dosis';
   position: relative;
   display: inline-block;
   color: #fff;
