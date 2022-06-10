@@ -77,7 +77,7 @@ th, td {
    
 }
 .title {
-  background-color: rgb(66, 0, 128);
+  background-color: grey;
   font-weight: bold;
   color: white;
 }
@@ -86,11 +86,11 @@ th, td {
 }
 .price {
   font-weight: bolder;
-  background-color: rgb(66, 0, 128);
+  background-color: grey;
   color: white;
 }
 .description {
-  background-color: gold;
+  background-color: cream;
   color: rgb(66, 0, 128);
 }
 .header {
