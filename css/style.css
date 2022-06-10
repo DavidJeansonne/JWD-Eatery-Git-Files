@@ -145,5 +145,10 @@ div.a {
   margin-left: auto;
   margin-right: auto;
 }
+  
+.title-center {
+  text-align: center;
+  color: whitesmoke;
+}
 
 
