@@ -139,8 +139,8 @@ h2 {
   text-transform: uppercase;
   animation: waviy 1s infinite;
   animation-delay: calc(.1s * var(--i));
-  
 }
+
 @keyframes waviy {
   0%,40%,100% {
     transform: translateY(0)
@@ -148,6 +148,8 @@ h2 {
   20% {
     transform: translateY(-20px)
   }
+}
+
 div.a {
   text-align: center;
 }
