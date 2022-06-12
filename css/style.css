@@ -43,12 +43,18 @@ nav a {
   letter-spacing: 5px;
 }
 
-a:hover {
+a:hover:not(.active-page-link) {
   font-family: 'Dosis', sans-serif;
   font-weight: 800;
   font-size: 20px;
   background-color: rgba(17, 17, 17, 0.521);
   backdrop-filter: blur(10px);
+}
+
+.active-page-link {
+  background-color: lightgray;
+  color: black;
+  font-weight: 800;
 }
 
 body {
