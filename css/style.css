@@ -53,6 +53,10 @@ a:hover {
   backdrop-filter: blur(10px);
 }
 
+body {
+    margin: 0;
+}
+
 .body-main {
   background-image: url("../images/restaurant pic.jpg");
   background-size: cover;
