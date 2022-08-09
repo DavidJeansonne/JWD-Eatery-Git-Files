@@ -4,17 +4,8 @@
 body {
 background: rgb(190,194,203);
 background: linear-gradient(45deg, rgba(190,194,203,1) 0%, rgba(131,135,141,1) 23%, rgba(120,124,130,1) 35%, rgba(75,78,81,1) 80%, rgba(68,71,73,1) 100%);
-background-image: ;
 }
 
-img {
-
-}
-
-/*nav {
-display: grid;
-position: fixed;
-}*/
 
 .header {
   display: flex;
@@ -35,25 +26,6 @@ color: #fbe1bd;
 font-size: 25px;
 font-weight: 600;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-
-table {
-
-}
-
-thead {
-
-}
-
-div{
-
-}
-
-tr,
-th,
-td { 
 
 }
 
