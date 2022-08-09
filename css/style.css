@@ -48,27 +48,14 @@ body {
 .header {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  height: 4.44rem;
-  padding: 0 12%;
+
   font-family: Verdana, sans-serif;
-  font-size: .77rem;
-  font-weight: bol;
-  opacity: 0.4;
+  font-size: 1.40rem;
 }
 
-.header a {
+a {
 text-decoration: none;
-font-size: 25px;
 font-weight: 600;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-p {
-  justify-content: start;
-  align-items: start;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
 }
 
 .menu{
