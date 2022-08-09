@@ -2,10 +2,48 @@
 @import url('https://fonts.google.com/specimen/Indie+Flower');
 
 body {
-background: rgb(190,194,203);
-background: linear-gradient(45deg, rgba(190,194,203,1) 0%, rgba(131,135,141,1) 23%, rgba(120,124,130,1) 35%, rgba(75,78,81,1) 80%, rgba(68,71,73,1) 100%);
+  background-color: #778da9;
 }
 
+.card {
+  perspective: 150rem;
+  position: relative;
+  height: 40rem;
+  max-width: 400px;
+  margin: 2rem;
+  box-shadow: none;
+  background: none;
+}
+
+.card-side {
+  height: 35rem;
+  border-radius: 15px;
+  transition: all 0.8s ease;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  padding:2rem;
+  color: white
+}
+
+.card-side.back {
+  transform: rotateY(-180deg);
+  background-color: #1d3557;
+}
+
+.card-side.front {
+  background-color: #457b9d;
+}
+
+.card:hover .card-side.front {
+  transform: rotateY(180deg);
+}
+
+.card:hover .card-side.back {
+  transform: rotateY(0deg);
+}
 
 .header {
   display: flex;
@@ -17,35 +55,20 @@ background: linear-gradient(45deg, rgba(190,194,203,1) 0%, rgba(131,135,141,1) 2
   font-size: .77rem;
   font-weight: bol;
   opacity: 0.4;
-  
 }
 
 .header a {
 text-decoration: none;
-color: #fbe1bd;
 font-size: 25px;
 font-weight: 600;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 p {
   justify-content: start;
   align-items: start;
-  color:#fbe1bd;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
-}
-
-h1 {
-  color:#fbe1bd;
-}
-
-#entrees {
-font-size: 25px;
-color: #fbe1bd;
-font-family:Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 .menu{

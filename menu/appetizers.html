@@ -5,11 +5,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>JWD Appetizers</title>
-   <link href="../css/style.css" rel="stylesheet" type="text/css" />
+  <link href="../css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <img src="../images/jwd-eatery-logo.png"/>
+  <!-- <img  class="logo" src="../images/jwd-eatery-logo.png"/> -->
   <nav class="header">
     <a href="../index.html">Home</a>
     <a href="appetizers.html">Appetizers</a>
@@ -17,47 +17,55 @@
     <a href="desserts.html">Desserts</a>
     <a href="drinks.html">Drinks</a>
   </nav>
-            <h1>Appetizers</h1>
-            <p>Start your meal with one of our famous fresh-to-order appetizers you know and love.</p>
-            
-<table>
-  <thead id="entrees">
-    <tr>
-      <th>Appertizer</th>
-      <th>Descrpition</th>
-      <th>Price</th>
-      <th>Image</th>
-    </tr>
-  </thead>
-  <tbody>
-     <tr>
-      <td>Boneless & Bone-in Wings</td>
-      <td>Hand-tossed in choice of sauce, celery, dipping sauce.</td>
-      <td>$10.99</td>
-      <td><img src="../images/chad-montano-gE28aTnlqJA-unsplash.jpg" alt="Chicken Wings" height="200" width="200" /></td>
-      </tr>
-    <tr>
-      <td>Chips and Salsa</td>
-      <td>Extra-thin authentic corn tostada chips made fresh daily. Served with fresh salsa.</td>
-      <td>$4.99</td>
-      <td><img src="../images/tim-toomey-h-sU3LASpJY-unsplash.jpg" alt="Chips" height="200" width="200" /></td>
-    </tr>
-    <tr>
-      <td>SouthWestern Egg Rolls</td>
-      <td>These are not your ordinary eggrolls. Crispy flour tortillas, chicken, black beans, corn, jalapeño Jack cheese, red peppers, spinach. Served with avocado-ranch.</td>
-      <td>$11.99</td>
-      <td><img src="../images/alexandra-tran-UkudQyyeovs-unsplash.jpg" alt="eggrolls" height="200" width="200" /></td>
-    </tr>
-    <tr>
-      <td>Chicken Nachos</td>
-      <td>Chicken, shredded cheese, black beans, jalapeños, Skillet Queso with beef. Served with pico & sour cream.</td>
-      <td>$11.39</td>
-      <td><img src="../images/erick-su-WjBp05j8LXI-unsplash.jpg" alt="Nachos" height="200" width="200" /></td>
-    </tr>
-  </tbody>
-  </table>
-  
-  <script src="../js/script.js"></script>
-</body>
+  <h1>Appetizers</h1>
+  <p>Start your meal with one of our famous fresh-to-order appetizers you know and love.</p>
+<div class="card">
+  <div class="card-side front">
+    <div><img src="../images/chad-montano-gE28aTnlqJA-unsplash.jpg" alt="" width="325" height="300"></div>
+    <div class="dish-name">Boneless & Bone-in Wings <span class="price">$10.99</span></div>
+    <hr>
+    <div>Descrpition:</div>
+    <div class="description">Hand-tossed in a sauce of your choosing, a side of celery, and additional dipping sauces.</div>
+  </div>
+  <div class="card-side back">
+    <div class="hand-tossed-sauces">
+      <p>Hand Tossed Sauces</p>
+      <input type="checkbox" id="bbq" name="bbq">
+      <label for="bbq">BBQ Sauce</label>
+      <br>
+      <input type="checkbox" id="honey-bbq" name="honey-bbq">
+      <label for="honey-bbq">Honey BBQ Sauce</label>
+      <br>
+      <input type="checkbox" id="garlic" name="garlic">
+      <label for="garlic">Garlic Sauce</label>
+      <br>
+      <input type="checkbox" id="flamin-hot" name="flamin-hot">
+      <label for="flamin-hot">Flamin Hot Sauce</label>
+      <br>
+      <input type="checkbox" id="Buffalo" name="Buffalo">
+      <label for="Buffalo">Buffalo Sauce</label>
+      <hr>
+      <div class="dipping-Sauces"></div>
+      <input type="checkbox" id="bluecheese" name="bluecheese">
+      <label for="bluecheese">Blue-Cheese Sauce</label>
+      <br>
+      <input type="checkbox" id="ranch" name="ranch">
+      <label for="ranch">Ranch Sauce</label>
+      <br>
+      <input type="checkbox" id="honey-mustard" name="honey-mustard">
+      <label for="honey-mustard">Honey Mustard Sauce</label>
+      <br>
+      <input type="checkbox" id="sweet-sour" name="sweet-sour">
+      <label for="sweet-sour">Sweet And Sour Sauce</label>
+      <br>
+      <input type="checkbox" id="parmesan-garlic" name="parmesan-garlic">
+      <label for="parmesan-garlic">Parmesan And Garlic Sauce</label>
+      <div class="cart-button">
+        <button>Add To Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
 
+</body>
 </html>
