@@ -6,6 +6,7 @@ body {
 }
 
 .card {
+  display: flex;
   perspective: 150rem;
   position: relative;
   height: 40rem;
@@ -42,6 +43,46 @@ body {
 }
 
 .card:hover .card-side.back {
+  transform: rotateY(0deg);
+}
+
+.card2 {
+  perspective: 150rem;
+  position: relative;
+  height: 40rem;
+  max-width: 400px;
+  margin: 2rem;
+  box-shadow: none;
+  background: none;
+}
+
+.card-side2 {
+  height: 35rem;
+  border-radius: 15px;
+  transition: all 0.8s ease;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  padding:2rem;
+  color: white
+}
+
+.card-side2.back {
+  transform: rotateY(-180deg);
+  background-color: #313638;
+}
+
+.card-side2.front {
+  background-color: #313638;
+}
+
+.card2:hover .card-side2.front {
+  transform: rotateY(180deg);
+}
+
+.card2:hover .card-side2.back {
   transform: rotateY(0deg);
 }
 
