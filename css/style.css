@@ -2,7 +2,7 @@
 @import url('https://fonts.google.com/specimen/Indie+Flower');
 
 body {
-  background-color: #778da9;
+  background-color: #eff1f3;
 }
 
 .card {
@@ -30,11 +30,11 @@ body {
 
 .card-side.back {
   transform: rotateY(-180deg);
-  background-color: #1d3557;
+  background-color: #313638;
 }
 
 .card-side.front {
-  background-color: #457b9d;
+  background-color: #313638;
 }
 
 .card:hover .card-side.front {
@@ -48,7 +48,6 @@ body {
 .header {
   display: flex;
   justify-content: space-around;
-
   font-family: Verdana, sans-serif;
   font-size: 1.40rem;
 }
