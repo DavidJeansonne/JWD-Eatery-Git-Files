@@ -3,6 +3,7 @@
 
 body {
   background-color: #eff1f3;
+  box-sizing: border-box;
 }
 
 .header {
@@ -20,3 +21,62 @@ font-weight: 600;
 .menu{
   word-spacing: 25%;
 }
+
+/* Start first Card */
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#container {
+  max-width: 300px;
+
+}
+
+.card {
+  background-color: #193B67;
+  padding: 8px;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.50) 
+}
+
+button {
+  width: 100%;
+  border-radius: 5px;
+}
+  .hand-tossed {
+    margin: 0;
+  }
+
+  .dipping-sauces {
+    margin: 0;
+  }
+
+  .description {
+    margin-bottom: 0;
+  }
+
+  .color {
+    color: #DFF8EB;
+  }
+
+  button {
+    background-color: #1D3461;
+    color: #DFF8EB;
+  }
+
+  button:hover {
+    background-color: #5B91D7;
+    color: black;
+  }
+
+  select {
+    background-color: #193B67;
+    color: #DFF8EB;
+    border-radius: 5px;
+  }
+
+  hr {
+
+  }
+/* End of first card */
