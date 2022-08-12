@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  background-color: #0D1B2A;
+  box-sizing: border-box;
+  margin:auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#logo{
+  width: 300px;
+  float: right;
+  margin-top: 2%;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+  line-height: 85px;
+  font-size: 100px;
+  color: #E0E1DD;
+  text-shadow: 10px 5px 2px #707070;
+  margin-top: 2%;
+  margin-bottom: 0;
+}
+
+.content-wrapper {
+  background-color: #0D1B2A;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+}
+
+a {
+text-decoration: none;
+font-weight: 600;
+color: #E0E1DD;
+text-shadow: 10px 5px 2px #707070;
+}
+
+.menu{
+  word-spacing: 25%;
+}
+
+p,
+option,
+span,
+div {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.2rem;
+}
+
+.form-text {
+  color: #E0E1DD;
+  text-shadow: 10px 5px 2px #707070;
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Start first Card */
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#container {
+  max-width: 300px;
+
+}
+
+.card {
+  background-color: #415A77;
+  padding: 8px;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.50);
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+button {
+  width: 100%;
+  border-radius: 5px;
+}
+  .hand-tossed {
+    margin: 0;
+  }
+
+  .dipping-sauces {
+    margin: 0;
+  }
+
+  .description {
+    margin-bottom: 0;
+  }
+
+  .color {
+    color: #DFF8EB;
+  }
+
+  button {
+    background-color: #415A77;
+    color: #DFF8EB;
+  }
+
+  button:hover {
+    background-color: #5B91D7;
+    color: black;
+  }
+
+  select {
+    background-color: #1B263B;
+    color: #DFF8EB;
+    border-radius: 5px;
+  }
+
+  .card:hover {
+    width: 350px;
+  }
+/* End of first card */
+
+footer {
+  margin-top: auto;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 2.2rem;
+  margin: 0;
+}
