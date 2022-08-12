@@ -3,8 +3,12 @@
 body {
   background-color: #0D1B2A;
   box-sizing: border-box;
-  margin:auto
+  margin:auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+
 #logo{
   width: 300px;
   float: right;
@@ -51,6 +55,13 @@ span,
 div {
   font-family: 'Bebas Neue', cursive;
   font-size: 1.2rem;
+}
+
+.form-text {
+  color: #E0E1DD;
+  text-shadow: 10px 5px 2px #707070;
+  font-size: 2rem;
+  margin: 0;
 }
 
 /* Start first Card */
@@ -113,3 +124,13 @@ button {
     width: 350px;
   }
 /* End of first card */
+
+footer {
+  margin-top: auto;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 2.2rem;
+  margin: 0;
+}
