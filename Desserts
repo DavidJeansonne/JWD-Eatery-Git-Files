@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <table>
+    
+ 
+  <thead>
+    <tr>
+      <th>
+        DESSERTS
+      </th>
+    </tr>
+    <tr>
+      <th>ITEMS</th>
+       <th>PRICE</th>
+       </tr>
+       
+  
+        
+         <td> Chocolate Chip Cookies </td> <td> $10.00 </td>
+       </tr>   
+  <tr>
+    <td> Apple Pie with Ice Cream </td><td> $09.00 </td>
+  </tr>
+  <tr>
+    <td> Classic Carrot Cake</td> <td>$12.00 </td> </tr>
+  </tr>
+    
+     <img src="https://images.unsplash.com/photo-1600454252672-d87dc589afdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" style="width:50px;height:60px;">
+  <img src="https://media.istockphoto.com/photos/foot-picture-id119689299?s=612x612" style="width:50px;height:60px;">
+   <img src="https://media.istockphoto.com/photos/carrot-cake-on-a-plate-picture-id1218708965?s=612x612" style="width:50px;height:60px;">
+
+ 
+  </tr>
+</tbody>
+</table>
+</html>
