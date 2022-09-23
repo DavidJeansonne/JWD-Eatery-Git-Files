@@ -1,0 +1,13 @@
+img {
+  height: 300px;
+  padding: 10px;
+  margin:auto;
+}
+th{
+  color: #6E4848;
+  background-color: #C1B09D;
+  border: 50%;
+}
+td{
+  color: #C1B09D
+}
